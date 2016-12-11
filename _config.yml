@@ -146,7 +146,7 @@ blockquote_style:
 heading_style: 0 # Value: 0 - 2
 
 ## List style type (ul) | 无序列表项标记样式
-list_style: 0  # value: 0 - 12 可选
+list_style: 8  # value: 0 - 12 可选
 
 # 左边栏宽度 px
 left_col_width: 300
@@ -220,7 +220,7 @@ ie_updater:
 
 # Tab Title Change | 标签页标题切换
 tab_title_change: 
-  on: false
+  on: true
   left_tab_title: '(つェ⊂) 我藏好了哦~ '
   return_tab_title: '(*´∇｀*) 被你发现啦~ '
 
@@ -247,8 +247,8 @@ mathjax: false
 # Socail Share | 是否开启分享
 share: 
   on: true
-  baidu: true
-  addthis: false
+  baidu: false
+  addthis: true
   addthis_pubid: "ra-56ff76c972fc0cf9"
   ## Go to www.addthis.com/dashboard to get your pubid (in src of Code)
   ## and customize AddThis share buttons
